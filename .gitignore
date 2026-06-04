@@ -1,0 +1,22 @@
+# sensitive config
+.env
+
+# Python cache / environment
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# local data and generated files
+data/
+generate_data.py
+test_*.png
+*.log
+
+*.db
+*.sqlite
+
+# IDE / system files
+.idea/
+.vscode/
+.DS_Store
